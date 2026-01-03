@@ -3,13 +3,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .calculator{
-    background: #222;
+    background: #324a5f;
     padding: 20px;
     border-radius: 12px;
     width: 280px;
@@ -18,11 +18,11 @@ body{
     width: 100%;
     height: 60px;
     font-size: 24px;
+    color: #ffffff;
     padding: 10px;
     text-align: right;
     border: none;
     border-radius: 8px;
-
 }
 .buttons {
     display: grid;
@@ -30,7 +30,7 @@ body{
 }
 button {
     height: 55px;
-    border-radius: 8px;
+    border-radius: 100px;
     cursor: pointer;
 }
 button:hover {
@@ -44,6 +44,6 @@ button:hover {
 }
 
 button:not(.equal) {
-    background: #444;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
